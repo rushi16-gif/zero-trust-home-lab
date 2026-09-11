@@ -1,0 +1,24 @@
+# Secrets and private key material
+.env
+*.pem
+*.key
+*.p12
+*.pfx
+*secret*
+*credentials*
+
+# Local exports/backups that may contain secrets
+*.xml.bak
+config.xml
+backups/
+
+# Keep sanitized examples explicitly
+!.env.example
+!docs/examples/**
+
+# Common local artifacts
+.DS_Store
+Thumbs.db
+*.log
+
+
